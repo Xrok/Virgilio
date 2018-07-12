@@ -39,4 +39,4 @@ bot.on('emojiCreate', (emoji)=> {
 	emoji.guild.defaultChannel.send('Se ha creado un nuevo emoji');
 });
 
-bot.login('NDI2ODEyNTcyMTM4ODY0NjUx.DZbyXg._Hr_O_Gr3QrgvMWMirIAsoRNTac');
+bot.login(process.env.VIRGILIO_KEY);
