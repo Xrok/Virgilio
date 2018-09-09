@@ -18,8 +18,12 @@ insultos.push("Igual wanki es gil csmr, PES ES BASURA");
 insultos.push("Ten un lindo dia bendicion del señor. :)");
 
 bot.on("ready", () => {
+<<<<<<< HEAD
     bot.user.setActivity("TESTING");
 
+=======
+    bot.user.setActivity("HO YARA");
+>>>>>>> 5a2af0968dd2f8bfbcc9398a8dd0d4e75608f9b6
 
 });
 
@@ -65,6 +69,7 @@ bot.on('emojiCreate', (emoji)=> {
 	emoji.guild.defaultChannel.send('Se ha creado un nuevo emoji');
 });
 
+<<<<<<< HEAD
 bot.login(process.env.VIRGILIO_KEY)//VIRGILIO_KEY
 
 
@@ -73,3 +78,6 @@ function virgilio_response(number) {
 	const numero = Math.floor(Math.random()*number)
 	return insultos[numero];
 }
+=======
+bot.login(process.env.VIRGILIO_KEY);
+>>>>>>> 5a2af0968dd2f8bfbcc9398a8dd0d4e75608f9b6
